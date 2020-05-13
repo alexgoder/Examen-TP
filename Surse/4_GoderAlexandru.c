@@ -49,8 +49,8 @@ int verificare(int rand,FILE *g)
 int main()
 {
 	FILE* f, * g;
-	f = fopen("in.txt", "r");
-	g = fopen("out.txt", "w");
+	f = fopen("cuv.in.txt", "r");
+	g = fopen("cuv.out.txt", "w");
 	citire(f);
 	if (verif_prim(n))//verifica daca numarul divizorilor e 0, insemna ca lungimea totala e prima
 	fprintf(g, "Numarul total de litere este prim, deci nu se pot aranja cuvintele pe randuri de lungimi egale");
