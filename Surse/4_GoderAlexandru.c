@@ -1,3 +1,6 @@
+/*Se dau lungimile a N cuvinte (0 < N ≤ 5 000), formate din cel puțin un caracter. Să se afișeze
+lungimea minimă necesară R a unui rând dintr-o pagină, astfel încât pe fiecare rând lungimea
+cumulată a cuvintelor să fie exact R (fără spații între ele). Cuvintele nu au voie să fie despărțite*/
 #include<stdio.h>
 int n, cuv[5000], lung = 0,maxim;
 
