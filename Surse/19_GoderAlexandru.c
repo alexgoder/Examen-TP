@@ -1,3 +1,13 @@
+/*Începând din vârful triunghiului spre bază coborând doar pe elementele adiacente, să se
+calculeze suma maximă care poate fi obținută.
+Pentru exemplul
+3
+7 4
+2 4 6
+8 5 9 3
+ruta care ne-ar oferii suma maximă ar fi: 3 7 4 9 (3 + 7 + 4 + 9 = 23).
+Se dă un triunghi de forma celui de mai sus. Să se calculeze suma maximă obținută din vârful
+triunghiului până la bază.*/
 #include <stdio.h>
 #include <stdlib.h>
 int a[200][200], sum = 0, maxim = 0,n;
